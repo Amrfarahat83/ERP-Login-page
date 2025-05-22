@@ -1,0 +1,154 @@
+
+body {
+    margin: 0;
+    height: 100vh;    
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(120deg, #493E68 0.51%, #2d2042 95.19%);
+}
+
+.login-container {
+    display: flex;
+    height: 100vh;
+    width:100%  ;
+}
+
+.login-left {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    padding-inline-start: 263px;
+    
+}
+
+.login-left form {
+    width: 100%;
+    max-width: 450px;
+}
+
+.login-left form label{
+    color: #ffffff;
+    margin-left: 20px;
+}
+
+#togglePasswordIcon {
+    color: #302748;
+    position: absolute;
+    top: 50%;
+    right: 10px; /* Adjust to fit padding */
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #302748;
+    background-color: #ffffff;
+    margin-top: 15px;
+    padding-right: 5px;
+
+}
+
+
+.login-left form input{
+    font-size: 16px;
+}
+
+.login-left fa-eye{
+    color: #ffffff;
+}
+
+.login-left img {
+    width: 100px;
+    margin-bottom: 20px;
+}
+.login-left h5 {
+    color: #ffffff; /* Blue color */
+}
+
+.login-left h6 {
+    color: #CBABFF;
+}
+
+.login-left img {
+    width: 200px;
+}
+
+.form-control {
+    background-color: #ffffff;
+    color: #ffffff;
+    border: 1px solid #C48CE7;
+}
+
+.form-control:focus {
+    background-color: #ffffff;
+    color: #ffffff;
+    border: 1px solid #C48CE7; /* Blue border on focus */
+    box-shadow: none;
+}
+
+.btn btn-log{
+    background-color: #ffffff;
+}
+
+.login-right {
+    flex: 1;
+    background: url('your-image-path.png') no-repeat center center;
+    background-size: cover;
+}
+
+.btn-log {
+    background-color: #55429A !important; /* Updated button color */
+    border-color: #ffffff; /* Update border color to match */
+
+}
+
+.btn-log:hover {
+    background-color: #903FC2 !important; /* Optional: slightly darker shade for hover effect */
+    border-color: #6c5cbe; /* Update hover border color to match */
+
+}
+
+.btn-primary:hover {
+    background-color: #7c6ec0; /* Optional: slightly darker shade for hover effect */
+    border-color: #6c5cbe; /* Update hover border color to match */
+}
+
+.login-footer {
+    font-size: 14px;
+    margin-top: 20px;
+    color: #ffffff;
+}
+.remember-me {
+    color: #ffffff;
+}
+
+.custom-placeholder::placeholder {
+    color: #ffffff;
+    opacity: .5; /* Ensure full opacity for placeholder text */
+}
+#img {
+    height: 100vh;
+    float: right;
+}
+
+.bi {
+    color: #C48CE7;
+}
+
+
+/* Custom styles for icons */
+.icon {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .navbar .dropdown-toggle {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar .dropdown-toggle img {
+    margin-right: 8px;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar .form-control {
+      margin-top: 10px;
+    }
+  }

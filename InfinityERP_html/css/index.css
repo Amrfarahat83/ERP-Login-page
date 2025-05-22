@@ -1,0 +1,31 @@
+
+/* Custom styles for icons */
+.icon {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .navbar .dropdown-toggle {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar .dropdown-toggle img {
+    margin-right: 8px;
+  }
+
+  .avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .navbar .form-control {
+      margin-top: 10px;
+    }
+  }
+
+
